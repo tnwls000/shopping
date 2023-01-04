@@ -1,0 +1,34 @@
+spring:
+  datasource:
+    url: jdbc:h2:tcp://localhost/~/onemorebag
+    username: sa
+    password:
+    driver-class-name: org.h2.Driver
+
+  servlet:
+    multipart:
+      max-file-size: 50MB
+      max-request-size: 50MB
+
+  jpa:
+    hibernate:
+      ddl-auto: create
+    properties:
+      hibernate:
+#         show_sql: true
+        format_sql: true
+        use_sql_comments: true
+        default_batch_fetch_size: 1000
+
+logging:
+  level:
+    org.hibernate.SQL: debug
+    org.hibernate.type: trace
+
+file:
+  dir: C:\Users\201910086\Desktop\spring\onemorebag\src\main\resources\static\storefiles
+
+server:
+  servlet:
+    session:
+      tracking-modes: COOKIE
