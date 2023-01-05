@@ -136,3 +136,65 @@
 
 </div>
 </details>
+
+## :white_check_mark: URI 문서
+<details>
+<summary>URI 문서</summary>
+<div markdown="1">
+  
+ - 메인페이지
+  |Method|URI|Description|Type|
+  |------|---|---|---|
+  |GET|/|메인페이지 조회(상품 목록 조회)|api|
+
+- 이미지
+  |Method|URI|Description|Type|
+  |------|---|---|---|
+  |GET|/imgs/{originalFileName}|이미지 파일 조회|-|
+
+- 회원 기본
+  |Method|URI|Description|Type|
+  |------|---|---|---|
+  |GET|/member/signup|회원등록 페이지 조회|-|
+  |POST|/member/signup|회원 등록|form|
+  |GET|/member/login|로그인 페이지 조회|-|
+  |POST|/member/login|로그인|form|
+  |POST|/member/logout|로그아웃|form|
+
+- 회원 상세
+  |Method|URI|Description|Type|
+  |------|---|---|---|
+  |GET|/mypage|회원 마이페이지 조회|api|
+  |GET|/mypage/orders|주문내역 페이지 조회|api|
+  |DELETE|/mypage/orders|주문 수정(취소)|api|
+  |GET|/mypage/likes|좋아요 목록 조회|api|
+  |GET|/mypage/modify|회원정보수정 페이지 조회|api|
+  |POST|/mypage/modify|회원정보수정|form|
+  
+- 상품
+  |Method|URI|Description|Type|
+  |------|---|---|---|
+  |GET|/item|상품 목록 조회|api|
+  |GET|/item/{itemId}|상품 상세 조회|api|
+  |POST|/item/{itemId}|상품 좋아요|api|
+  |GET|/item/search|상품 검색|api|
+
+- 관리자
+  |Method|URI|Description|Type|
+  |------|---|---|---|
+  |GET|/item/add|상품 등록 페이지 조회|-|
+  |POST|/item/add|상품 등록|form|
+  |GET|/item/{itemId}/modify|상품 수정 페이지 조회|api|
+  |POST|/item/{itemId}/modify|상품 수정|form|
+  |DELETE|/item/{itemId}|상품 삭제|api|
+  |GET|/member|회원 목록 조회|api|
+  |DELETE|/member|회원 삭제|-|
+  
+- 주문
+  |Method|URI|Description|Type|
+  |------|---|---|---|
+  |GET|/order/{itemId}|주문 페이지 조회|-|
+  |GET|/order/{itemId}|상품 주문|form|
+
+</div>
+</details>  
