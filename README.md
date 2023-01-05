@@ -142,11 +142,11 @@
 <summary>URI 문서</summary>
 <div markdown="1">
   
- - 메인페이지    
+ - 메인페이지
   |Method|URI|Description|Type|
   |------|---|---|---|
   |GET|/|메인페이지 조회(상품 목록 조회)|api|
-
+  
 - 이미지
   |Method|URI|Description|Type|
   |------|---|---|---|
