@@ -34,7 +34,7 @@ public class ItemApiController {
     /**
      * 상품 목록 조회
      */
-    @GetMapping("/item")
+    @GetMapping("")
     public ResponseEntity<Map<String, Object>> itemsPage(@Login LoginMember loginMember,
                                                          @PageableDefault Pageable pageable) {
 

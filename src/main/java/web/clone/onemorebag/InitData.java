@@ -18,7 +18,7 @@ import javax.persistence.PersistenceContext;
 import java.util.ArrayList;
 import java.util.List;
 
-@Profile("local")
+//@Profile("local")
 @Component
 @RequiredArgsConstructor
 public class InitData {
@@ -32,6 +32,7 @@ public class InitData {
 
     @Component
     @Transactional
+    @RequiredArgsConstructor
     static class InitService {
         @PersistenceContext
         EntityManager em;
