@@ -141,6 +141,7 @@
 <details>
 <summary>URI 문서</summary>
 <div markdown="1">
+
   
  - 메인페이지  
   |Method|URI|Description|Type|
@@ -186,15 +187,15 @@
   |POST|/item/add|상품 등록|form|
   |GET|/item/{itemId}/modify|상품 수정 페이지 조회|api|
   |POST|/item/{itemId}/modify|상품 수정|form|
-  |DELETE|/item/{itemId}|상품 삭제|api|
+  |DELETE|/item/{itemId}/delete|상품 삭제|api|
   |GET|/member|회원 목록 조회|api|
   |DELETE|/member|회원 삭제|-|
   
 - 주문
   |Method|URI|Description|Type|
   |------|---|---|---|
-  |GET|/order/{itemId}|주문 페이지 조회|-|
-  |GET|/order/{itemId}|상품 주문|form|
+  |GET|/orders/{itemId}|주문 페이지 조회|-|
+  |GET|/orders/{itemId}|상품 주문|form|
 
 </div>
 </details>  
