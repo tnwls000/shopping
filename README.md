@@ -12,7 +12,7 @@
 + H2
 + QueryDSL
 + Mockito
-+ JUnit%
++ JUnit5
 
 ## :pencil2: ERD 설계
 ![onemorebag_수정](https://user-images.githubusercontent.com/70851874/210693956-8b497cbd-96a9-4eb0-99da-bf28e16a877f.png)
